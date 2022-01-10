@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Body mass index </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .decoration-one {
+            background-color: rgb(249, 154, 154);
+            margin: 4px, 2px;
+            border: 0;
+            border-radius: 12px;
+            padding: 9px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .decoration-one:hover {
+            background-color: yellow;
+
+        }
+
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .header {
+            padding: 1px;
+            text-align: center;
+            background: #0d5ac0;
+            color: #9db9eb;
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        h4 a:hover {
+            color: orange;
+
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0px;
+            height: 1px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body style="text-align: center; padding: 0px 0px;">
+    <div class="header">
+        <h1>BMI Management System</h1>
+
+    </div>
+    <div>
+        <form name="NSP">
+            <br>
+            <br>
+            <h2>Welcome</h2>
+            <h3>Sign Up</h3>
+            <br />
+            <br>
+            <input type="text" name="username" placeholder="Username" size="15"><br /><br />
+            <input type="text" name="email" placeholder="E-Mail" size="15"><br /><br />
+            <input type="password" name="password" placeholder="Password" size="15"><br /><br />
+            <input class="decoration-one px-3 py-2" type="Submit" value="Submit"><br /><br />
+
+            <br />
+        </form>
+    </div>
+    <footer style="padding: 130px 0px;font-size: 15px;">
+        <h4><a href="home.html">Go Back</a></h4>
+        <h5>About Us</h5>
+
+        <div class="row">
+            <div class="column" style="text-align: center;">
+                <p>Ankita Panigrahi<br>
+                <p>2020pgicsankita10@poornima.org<br>
+                <p>9950594622<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Lucky Sharda<br>
+                <p>2020pgicslucky40@poornima.org</p>
+                <p>9928210146<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Manoj Kumar Sharma<br>
+                <p>2020pgicsmanoj93@poornima.org<br>
+                <p>9549966252<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Mohd Afrid<br>
+                <p>2020pgicsmohd44@poornima.org<br>
+                <p>7425906786</br>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

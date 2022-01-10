@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Body mass index </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .decoration-one {
+            background-color: rgb(249, 154, 154);
+            margin: 4px, 2px;
+            border: 0;
+            border-radius: 12px;
+            padding: 9px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .decoration-one:hover {
+            background-color: yellow;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .header {
+            padding: 1px;
+            text-align: center;
+            background: #0d5ac0;
+            color: #9db9eb;
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        body {
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0px;
+            height: 1px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body style="text-align: center; padding: 0px 0px;">
+    <div class="header">
+        <h1>BMI Management System</h1>
+
+    </div>
+    <div>
+        <form name="NSP">
+            <br></br>
+            <br></br>
+
+            <h2>Welcome</h2>
+            <br />
+            <br></br>
+            <a href="demo.html"><input class="decoration-one px-3 py-2" type="button"
+                    value="Calculate BMI" /><br /><br /></a>
+
+            <a href="login2.html"><input class="decoration-one px-3 py-2" type="button"
+                    value="Existing Client" /><br /><br /></a>
+            <a href="signup.html"><input class="decoration-one px-3 py-2" type="button"
+                    value="New Client" /><br /><br /></a>
+            <a href="Stats.html"><input class="decoration-one px-3 py-2" type="button"
+                    value="BMI Stats" /><br /><br /></a>
+            <br />
+        </form>
+    </div>
+    <footer style="padding: 100px 0px;font-size: 15px;">
+        <h5>About Us</h5>
+
+        <div class="row">
+            <div class="column" style="text-align: center;">
+                <p>Ankita Panigrahi<br>
+                <p>2020pgicsankita10@poornima.org<br>
+                <p>9950594622<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Lucky Sharda<br>
+                <p>2020pgicslucky40@poornima.org</p>
+                <p>9928210146<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Manoj Kumar Sharma<br>
+                <p>2020pgicsmanoj93@poornima.org<br>
+                <p>9549966252<br>
+            </div>
+            <div class="column" style="text-align: center;">
+                <p>Mohd Afrid<br>
+                <p>2020pgicsmohd44@poornima.org<br>
+                <p>7425906786</br>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
